@@ -1,3 +1,7 @@
+
+# bring-up
+Bring-Up is a simple text editor for Browser and a basic text-editing program which enables online users to create documents.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
