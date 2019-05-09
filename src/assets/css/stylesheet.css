@@ -4,9 +4,14 @@
 }
 
 body, .__bu-primary-bg {
-    background: rgba(0,0,0,0.06);
+    /*background: rgba(0,0,0,0.06);*/
+    color: #031b4e !important;
+    background: #f3f5f9;
 }
 
+.__bu-editor-border {
+    border-color: rgb(76, 154, 255);
+}
 .watermark {
     opacity: 0.2;
     color: gray;
@@ -20,15 +25,21 @@ body, .__bu-primary-bg {
     color: #212121;
     height: 35px;
     text-align: center;
+    font: 500 14px/20px Google Sans,sans-serif;
+    letter-spacing: 0.7px;
 }
 .__bu-secondary-sidebar-w {
     width: 20px !important;
 }
 .__bu-primary-b-shadow {
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    -webkit-box-shadow: 0 2px 4px rgba(3,27,78,.1);
+    box-shadow: 0 2px 4px rgba(3,27,78,.1);
+    /*box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);*/
 }
 .__bu-primary-side-b-shadow {
-    box-shadow:  1px 0 0 1px  rgba(0,0,0,.16);
+    -webkit-box-shadow:  2px 4px 0 rgba(3,27,78,.1);
+    box-shadow:  2px 4px 0 rgba(3,27,78,.1);
+    /*box-shadow:  1px 0 0 1px  rgba(0,0,0,.16);*/
 }
 
 .__bu-sidebar {
@@ -43,8 +54,11 @@ body, .__bu-primary-bg {
 .__bu-sidebar a {
     display: block;
     color: black;
-    padding: 16px;
     text-decoration: none;
+}
+.__bu-sidebar-img-user {
+    width: 32px;
+    height: 32px;
 }
 
 /*.__bu-sidebar a.active {*/
@@ -61,10 +75,10 @@ div.__bu-content {
     margin-left: 48px;
     margin-top: 36px;
     padding: 1px 16px;
-    height: 95%;
+    height: 94%;
     position: fixed;
     overflow: auto;
-    width: 96.5%;
+    width: 96.4%;
 }
 
 @media screen and (max-width: 700px) {
