@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bring-up/static/css/main.636a3726.chunk.css",
+    "main.css": "/bring-up/static/css/main.b08444cb.chunk.css",
     "main.js": "/bring-up/static/js/main.691d424b.chunk.js",
     "main.js.map": "/bring-up/static/js/main.691d424b.chunk.js.map",
     "runtime~main.js": "/bring-up/static/js/runtime~main.43faace0.js",
@@ -9,10 +9,10 @@
     "static/js/2.0353426f.chunk.js": "/bring-up/static/js/2.0353426f.chunk.js",
     "static/js/2.0353426f.chunk.js.map": "/bring-up/static/js/2.0353426f.chunk.js.map",
     "index.html": "/bring-up/index.html",
-    "precache-manifest.bc3e6a198d818d29589b6536d4c1c5ec.js": "/bring-up/precache-manifest.bc3e6a198d818d29589b6536d4c1c5ec.js",
+    "precache-manifest.fb46d8c4789d9cd44773f95aea6719ca.js": "/bring-up/precache-manifest.fb46d8c4789d9cd44773f95aea6719ca.js",
     "service-worker.js": "/bring-up/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/bring-up/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.636a3726.chunk.css.map": "/bring-up/static/css/main.636a3726.chunk.css.map",
+    "static/css/main.b08444cb.chunk.css.map": "/bring-up/static/css/main.b08444cb.chunk.css.map",
     "static/media/boy.png": "/bring-up/static/media/boy.407e00f0.png",
     "static/media/logo.svg": "/bring-up/static/media/logo.5d5d9eef.svg"
   }
