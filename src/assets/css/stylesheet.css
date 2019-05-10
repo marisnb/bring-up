@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #inputTextToSave, #section-to-print * {
+        visibility: visible;
+    }
+    #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
 body, .__bu-primary-bg {
     /*background: rgba(0,0,0,0.06);*/
     color: #031b4e !important;

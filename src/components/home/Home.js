@@ -3,6 +3,7 @@ import {Header} from "../header/Header";
 import {PrimarySideNav} from "../nav/PrimarySideNav";
 import {SecondarySideNav} from "../nav/SecondarySideNav";
 import {Editor} from "../editor/Editor";
+import {Profile} from "../profile/Profile";
 
 const Home = () => {
     return (
@@ -14,6 +15,8 @@ const Home = () => {
             <PrimarySideNav/>
             {/*<SecondarySideNav/>*/}
             <Editor/>
+            <Profile/>
+
         </div>
     )
 };
