@@ -36,7 +36,15 @@ const loadFile = () => {
 };
 
 const profile = () => {
-    document.getElementById("profile").click();
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+    //document.getElementById("profile").click();
 };
 
-export {saveData, loadFileAsText, loadFile, profile}
+const profileClose = () => {
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+};
+
+export {saveData, loadFileAsText, loadFile, profile, profileClose}

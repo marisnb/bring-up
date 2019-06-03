@@ -2,12 +2,14 @@
   "name": "bring-up",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://marisnb.github.io/bring-up",
+  "homepage": "http://marisnb.github.io",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   },
   "scripts": {
     "start": "react-scripts start",
