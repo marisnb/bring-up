@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bring-up/static/css/main.f7ef7788.chunk.css",
-    "main.js": "/bring-up/static/js/main.7cdce764.chunk.js",
-    "main.js.map": "/bring-up/static/js/main.7cdce764.chunk.js.map",
-    "runtime~main.js": "/bring-up/static/js/runtime~main.43faace0.js",
-    "runtime~main.js.map": "/bring-up/static/js/runtime~main.43faace0.js.map",
-    "static/css/2.266e55a5.chunk.css": "/bring-up/static/css/2.266e55a5.chunk.css",
-    "static/js/2.4259960b.chunk.js": "/bring-up/static/js/2.4259960b.chunk.js",
-    "static/js/2.4259960b.chunk.js.map": "/bring-up/static/js/2.4259960b.chunk.js.map",
-    "index.html": "/bring-up/index.html",
-    "precache-manifest.94f0ecc47b87bca21dafc4482494601e.js": "/bring-up/precache-manifest.94f0ecc47b87bca21dafc4482494601e.js",
-    "service-worker.js": "/bring-up/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/bring-up/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.f7ef7788.chunk.css.map": "/bring-up/static/css/main.f7ef7788.chunk.css.map",
-    "static/media/boy.png": "/bring-up/static/media/boy.407e00f0.png",
-    "static/media/logo.svg": "/bring-up/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.3b4c9ca0.chunk.css",
+    "main.js": "/static/js/main.3c7ee983.chunk.js",
+    "main.js.map": "/static/js/main.3c7ee983.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
+    "static/js/2.4259960b.chunk.js": "/static/js/2.4259960b.chunk.js",
+    "static/js/2.4259960b.chunk.js.map": "/static/js/2.4259960b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8d66bdba0333e3eef615e9d2cbbb1512.js": "/precache-manifest.8d66bdba0333e3eef615e9d2cbbb1512.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.3b4c9ca0.chunk.css.map": "/static/css/main.3b4c9ca0.chunk.css.map",
+    "static/media/boy.png": "/static/media/boy.407e00f0.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   }
 }
