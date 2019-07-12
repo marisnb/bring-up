@@ -19,6 +19,14 @@ body {
         top: 0;
     }
 }
+#inputTextToSave:focus{
+    /*outline: 2px solid #0747A6;*/
+    border-radius: 8px;
+}
+#inputTextToSave{
+    /*outline: 2px solid #0747A6;*/
+    border-radius: 8px;
+}
 
 body, .__bu-primary-bg {
     /*background: rgba(0,0,0,0.06);*/
@@ -54,15 +62,16 @@ body, .__bu-primary-bg {
     /*box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);*/
 }
 .__bu-primary-side-b-shadow {
-    -webkit-box-shadow:  2px 4px 0 rgba(3,27,78,.1);
-    box-shadow:  2px 4px 0 rgba(3,27,78,.1);
+    -webkit-box-shadow:  1px 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow:  1px 1px 3px rgba(0, 0, 0, 0.1);
     /*box-shadow:  1px 0 0 1px  rgba(0,0,0,.16);*/
 }
 
 .__bu-sidebar {
+    border: 3px solid white;
     margin: 0;
     padding: 0;
-    width: 48px;
+    width: 40px;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
@@ -89,12 +98,12 @@ body, .__bu-primary-bg {
 /*}*/
 
 div.__bu-content {
-    margin-left: 48px;
+    margin-left: 41px;
     padding: 1px 16px;
-    height: 94%;
+    height: calc(100% - 37px);
     position: fixed;
     overflow: auto;
-    width: 96.4%;
+    width: 96.9%;
 }
 
 @media screen and (max-width: 700px) {
@@ -155,6 +164,7 @@ div.__bu-content {
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
+    padding-top: 36px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -353,9 +363,12 @@ a.article:hover {
 .nav-item, .dropdown-item{
     cursor: pointer;
 }
-.navbarEditDropdown {
-    width: 195px;
+.dropdown, .dropdown-item {
+    font-size:13px;
 }
+/*.navbarEditDropdown {*/
+/*    width: 195px;*/
+/*}*/
 .modal-content {
     background-color: #fff;
     border: none;

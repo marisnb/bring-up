@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-      <header>
+      <header className={"fixed-top"}>
           <nav className="navbar navbar-expand-lg navbar-light bg-white __bu-header-h __bu-primary-b-shadow">
               <button className="navbar-toggler" type="button" data-toggle="collapse"
                       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -11,7 +11,7 @@ const Header = () => {
               </button>
 
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul className="navbar-nav mr-auto pl-5">
+                  <ul className="navbar-nav mr-auto pl-4">
                       <li className="nav-item dropdown animate slideIn active">
                           <a className="nav-link dropdown-toggle" href="#" id="navbarFileDropdown" role="button"
                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

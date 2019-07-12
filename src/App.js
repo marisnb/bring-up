@@ -10,10 +10,7 @@ import {Profile} from "./components/profile/Profile";
 
 function App() {
   return (
-    <div className="wrapper" >
       <Home/>
-      {/*<Profile/>*/}
-    </div>
   );
 }
 
